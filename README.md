@@ -66,7 +66,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 # DATABASE SET UP
- - create .env and set up your database
+ - create .env and set up your database // OR use sqlite as DB_CONNECTION=sqlite
  - run >>> php artisan migrate
  - run for dummy data >>> Php artisan db:seed
 
