@@ -51,6 +51,11 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Contributing
 
+# DATABASE SET UP
+ - create .env and set up your database
+ - run >>> php artisan migrate
+ - run for dummy data >>> Php artisan db:seed
+
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Code of Conduct
