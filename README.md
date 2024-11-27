@@ -51,11 +51,6 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Contributing
 
-# DATABASE SET UP
- - create .env and set up your database
- - run >>> php artisan migrate
- - run for dummy data >>> Php artisan db:seed
-
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Code of Conduct
@@ -69,3 +64,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# DATABASE SET UP
+ - create .env and set up your database
+ - run >>> php artisan migrate
+ - run for dummy data >>> Php artisan db:seed
+
+# AFTER CLONE RUN THE FOLLOWING 
+# componser install
+# php artisan key:generate
+# npm install
